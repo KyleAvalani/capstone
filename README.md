@@ -14,11 +14,11 @@ Our proposed soluation is EcoCraft: a Minecraft mod to teach children about envi
 ## What's currently here
 This repository currently does not contain anything, as this project is an active Work-in-Progress. Expects updates in the near future!
 
-# How to Build and Deploy:
+## How to Build and Deploy:
 
 This will be specified as the project is closer to completion. In it's current state it is not ready for public download. 
 
-# How to Contribue:
+## How to Contribue:
 
 Fork the repo and create your own branch. Make your changes and then submit them as a Pull-Request. Admins of this branch will review your suggestions and approve or deny them with appropriate specifications. 
 
