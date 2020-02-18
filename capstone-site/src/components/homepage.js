@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import groupimg from './img/group.jpg';
+
 
 
 // This is the navigation bar component containing links that can reroute the page
@@ -10,6 +12,9 @@ class HomePage extends Component {
                 <h1>
                     EcoCraft
                 </h1>
+
+                <img src= {groupimg} alt="Picture of  our group at the minecraft exhibit in MoPop"/>
+
 
                 <div className="card text-white bg-info mb-3">
                 <div class="card-header">The Problem</div>

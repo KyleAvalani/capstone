@@ -38,7 +38,7 @@ class AboutPage extends Component {
                             <div className="card-body">
                                 <div className="row">
                                     <div className="col-sm-auto">
-                                        <img src= {samimg} alt="Picture of Sam Buxton" width="172" height="172"/>
+                                        <img src= {samimg} alt="Picture of Sam Buxton" width="172" height="172" align="middle"/>
                                     </div>
                                     <div className="col-sm">
                                         <h2 className="card-title">Sam Buxton</h2>
