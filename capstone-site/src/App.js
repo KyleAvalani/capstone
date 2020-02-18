@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import NavigationBar from './components/navbar.js'
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import HomePage from './components/homepage.js'
-import AboutPage from './components/about.js'
-import FeaturesPage from './components/features'
+import NavigationBar from './components/navbar.js';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import HomePage from './components/homepage.js';
+import AboutPage from './components/about.js';
+import FeaturesPage from './components/features';
+import Footer from './components/footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route component={HomePage} />
         </Switch>
       </Router>
+      <Footer></Footer>
     </div>
   );
 }
