@@ -20,7 +20,7 @@ function App() {
           <Route component={HomePage} />
         </Switch>
       </Router>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 }
