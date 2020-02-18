@@ -1,0 +1,16 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css")
+
+.card-img {
+    align-items: center;
+    width: 172;
+    height: 172;
+}
+
+.home-img {
+    width: 60vw;
+    height:40vw;
+}
+
+.card-header {
+    font-size: large;
+}
