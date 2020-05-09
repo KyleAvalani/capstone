@@ -1,3 +1,6 @@
+def travelled_swim_water():
+    mobs.clear_effect(mobs.target(NEAREST_PLAYER))
+player.on_travelled(SWIM_WATER, travelled_swim_water)
 def on_chat():
     mobs.kill(mobs.entities_by_type(SEA_TURTLE))
     mobs.kill(mobs.entities_by_type(PUFFERFISH))
@@ -38,6 +41,12 @@ blocks.on_block_placed(FLOWER_POT, block_placed_flower_pot)
 def on_chat3():
     mobs.spawn(POLAR_BEAR, world(120, 65, 565))
 player.on_chat("bearslave", on_chat3)
+def on_forever():
+    mobs.apply_effect(NAUSEA,
+        mobs.near(mobs.target(NEAREST_PLAYER), world(233, 64, 604), 3),
+        232,
+        1)
+loops.forever(on_forever)
 blocks.clone(world(467, 63, 544),
     world(467, 63, 544),
     world(464, 64, 543),
