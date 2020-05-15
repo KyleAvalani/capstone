@@ -61,3 +61,8 @@ while True:
         world(114, 66, 560),
         CloneMask.REPLACE,
         CloneMode.FORCE)
+
+def ventilatorTele:
+    if player.position() == world(230, 67, 564):
+        mobs.spawn(VILLAGER, world(239, 64, 629))
+                   blocks.place(ENCHANTMENT_TABLE, world(246, 64, 608))
