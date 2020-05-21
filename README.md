@@ -16,7 +16,7 @@ Our proposed solution is EcoCraft: a Minecraft Education Edition experience to t
 - Download the Minecraft world listed in this repository and then open up Minecraft Education Edition and navigate to the import button listed below. 
 ![How to import Minecraft world](/ImportMinecraftWorld.png)
 - Once you're in the world, hit `C` to open up Minecraft Code and open up a new blank Python template
-- Copy in our script `unitOneScript.py` and hit run
+- Copy in our script `UnitScripts.py` and hit run
 - Follow along the lesson plan to instruct your students how to play! But most importantly, have fun!
 
 ## How to Contribue:
