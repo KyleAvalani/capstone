@@ -12,6 +12,9 @@ Our proposed solution is EcoCraft: a Minecraft Education Edition experience to t
 * Our detailed lesson plans for instructors to implement our experience into their lessons
 * Our Minecraft Code scripts to handle the logic behind our world
 
+Website Link: https://kyleavalani.github.io/capstone/?fbclid=IwAR114usYwxZUtIsnuTL8Bb_Sn0vKJN8YAC0e-nbUbxgxlWT8hOx1rxwPWq8
+
+
 ## How to Build and Deploy:
 - Download the Minecraft world listed in this repository and then open up Minecraft Education Edition and navigate to the import button listed below. 
 ![How to import Minecraft world](/ImportMinecraftWorld.png)
